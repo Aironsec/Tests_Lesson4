@@ -8,5 +8,5 @@
     <string name="decrement_text">-</string>
     <string name="increment_text">+</string>
     <string name="to_details">to details</string>
-    <string name="search_is_working_test">Number of results: 2424</string>
+    <string name="search_is_working_test">Number of results: 42</string>
 </resources>
