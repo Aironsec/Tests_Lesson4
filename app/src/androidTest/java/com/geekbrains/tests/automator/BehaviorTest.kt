@@ -10,6 +10,7 @@ import androidx.test.uiautomator.By
 import androidx.test.uiautomator.UiDevice
 import androidx.test.uiautomator.UiObject2
 import androidx.test.uiautomator.Until
+import com.geekbrains.tests.TIMEOUT
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test
@@ -143,9 +144,5 @@ class BehaviorTest {
         Assert.assertEquals(changedText.text, "Number of results: 1")
         buttonDecrement.click()
         Assert.assertEquals(changedText.text, "Number of results: 0")
-    }
-
-    companion object {
-        private const val TIMEOUT = 5000L
     }
 }
